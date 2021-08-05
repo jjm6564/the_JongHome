@@ -1,57 +1,64 @@
-.contain {
-    width: 1348;
-    height: 1095;
-    position:relative;
-    padding: 65px 0 0 0;
+main {
+    margin: 50px 50px 50px 50px;
+    display: flex;
 }
 
-div {
-    display: block;
+.menu {
+    width: 264px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: wheat;
 }
 
-.contain.container {
-    width: 1200px;
-    zoom: 1;
-    margin: 0 auto 100px auto;
-}
-
-.contain.container:after {
-    clear: both;
-    content: "";
-    display: block;
-    font-size: 0;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
-}
-
-.InbArea {
-    float: left;
-}
-
-.InbMenu {
-    width: 216px;
-    border: #e9dab8 solid 1px;
-    background: #f1e3c4;
-    padding: 23px;
-    margin: 0 0 30px 0;
-}
-
-.InbQna.InbMenu.tit {
-    background-position: 0 -1300px;
-}
-
-.InbQna.InbMenu>.tit {
-    margin: 0 0 29px 0;
+.menu h2 {
+    width: 264px;
     height: 53px;
-    display: block;
-    text-indent: -9999%;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border-bottom: 3px solid black;
 }
 
-h2 {
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.menu ul{
+    list-style: none;
+    width: 264px;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.contents {
+    width: 984px;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.contents_title {
+    width: 866px;
+    height: 52px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 3px solid black;
+}
+
+.contents_title h3, span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contents_main table td {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
