@@ -1,0 +1,64 @@
+main {
+    margin: 50px 50px 50px 50px;
+    display: flex;
+}
+
+.menu {
+    width: 264px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: wheat;
+}
+
+.menu h2 {
+    width: 264px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border-bottom: 3px solid black;
+}
+
+.menu ul{
+    list-style: none;
+    width: 264px;
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.contents {
+    width: 984px;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.contents_title {
+    width: 866px;
+    height: 52px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 3px solid black;
+}
+
+.contents_title h3, span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contents_main table td {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
