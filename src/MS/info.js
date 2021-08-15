@@ -1,8 +1,11 @@
 import React from 'react'
 import "./info.css"
 import aa from "./images/aa.png"
+import queryString from 'query-string';
 
-const info = () => {
+const info = ({location,match}) => {
+    const query = queryString.parse(window.location.search);
+    
     return (
         <main>
             <div className="menu">

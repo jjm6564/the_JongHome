@@ -8,9 +8,9 @@ class App extends Component {
     render() {
         return (
             <div>
-            <INFO />
-            <Qna />
             <Templete/>
+            <Route path="/info" component={INFO}/>
+            <Route path="/qna" component={Qna}/>
             </div>
         );
     }
